@@ -8,15 +8,24 @@
 .container-first {
     background-color: #DCE9E2;
     padding: 0px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-last {
     background-color: #f7f9f9;
     padding: 0px 24px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 header {
+    padding-top: 34px;
     margin-bottom: 50px;
 }
 
@@ -96,6 +105,10 @@ header {
     margin-bottom: 15px;
 }
 
+.number-container p{
+    color: #00856F
+}
+
 .number-container div:nth-child(2){
     margin: 40px;
 }
@@ -150,5 +163,8 @@ footer h2 span {
     font-weight: bold;
 }
 
-
-
+@media screen and (min-width: 768px) {
+    .content {
+        max-width: 900px;
+    }
+  }
