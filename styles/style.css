@@ -94,6 +94,7 @@ header {
     background-color: #FFFAF1;
     text-align: center;
     padding: 30px 0px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.377);
 }
 
 .number-container div{
@@ -132,12 +133,9 @@ header {
 .services {
     padding: 24px;
     background-color: white;
+    margin: 40px 0px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.377);
 }
-
-.services {
-    margin: 40px 0px
-}
-
 .services h3{
     font-size: 24px;
     font-weight: bold;
@@ -167,4 +165,31 @@ footer h2 span {
     .content {
         max-width: 900px;
     }
-  }
+
+    .hero-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .container-description {
+        width: 50%;
+        text-align: left;
+        align-items: center;
+    }
+
+    .number-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 80px 40px;
+    }
+
+    .number-container div:nth-child(2){
+        margin: 0px;
+    }
+
+    .services-container {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+}
