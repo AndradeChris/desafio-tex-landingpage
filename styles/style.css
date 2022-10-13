@@ -3,22 +3,25 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #dce9e2;
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-    margin: 30px 0px;
-    height: 72px;
-    justify-content: space-between;
-}
-
-.container {
+.container-first {
+    background-color: #DCE9E2;
     padding: 0px 24px;
 }
 
+.container-last {
+    background-color: #f7f9f9;
+    padding: 0px 24px;
+    overflow: hidden;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
 .logo-title {
+    margin-bottom: 34px;
     font-size: 24px;
     font-weight: 400;
 }
@@ -76,5 +79,76 @@ header {
 
 .hero-img-container img {
     width: 100%;
-    height: 100%;
 }
+
+.number-container{
+    background-color: #FFFAF1;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.number-container div{
+    background-color: #FFFAF1;
+}
+
+.number-container h2{
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.number-container div:nth-child(2){
+    margin: 40px;
+}
+
+.services-description {
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.services-description h4{
+    color: #00856F;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.services-description h2{
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.services {
+    padding: 24px;
+    background-color: white;
+}
+
+.services {
+    margin: 40px 0px
+}
+
+.services h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.services p{
+    letter-spacing: 2px;
+}
+
+footer {
+    background-color: #00856F;
+    padding: 50px 24px;
+    color: white;
+}
+
+footer h2{ 
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+footer h2 span {
+    font-weight: bold;
+}
+
+
+
